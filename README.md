@@ -1,66 +1,17 @@
-## Foundry
+## All About NFTs and ERC721
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Primary project:
+1. explore ERC721 the nft standard
+2. implement ERC721 using IPFS as well as onchain SVG,
+    including the deploy and test scripts
+3. explore popular nft collections on Opensea: 
+    contract code, design, features, functionality, security
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Low-level EVM Encoding/Decoding and Calldata Structure
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Secondary project:
+1. explore base64 encoding of strings and bytes, facilitating comparisons
+2. explore keccak256() hashing and abi.encode() encoding family of functions
+3. explore function signatures, selectors, calldata structure/format
+4. learn how to make a function call on a contract w/o a proper interface
